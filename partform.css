@@ -1,0 +1,202 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0 50px;
+}
+
+
+
+
+
+/* Header styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.date-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 100px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.form-group {
+
+    margin-bottom: 20px;
+}
+
+.input-area {
+    position: relative;
+}
+
+.formControl {
+   font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Add padding for better appearance */
+    width: 100%;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding:10px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    font-size: 25px;
+
+
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 0.5em; /* Adjust the padding as needed */
+    border: 1px solid #ccc; /* Adjust the border properties as needed */
+}
+
+/* Adjust column widths */
+td:first-child {
+    width: 40%;
+}
+
+td:nth-child(n+2) {
+    width: 15%; /* Adjust the width of option columns */
+}
+
+/* Adjust label alignment */
+td label {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+/* Radio button styles */
+.inputRadio {
+    margin-right: 5px;
+}
+ .logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 20px;
+}
+        .date-box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .logo {
+    text-align: center;
+   }
+
+.logo img {
+    width: 87%;
+    margin: 0 50px;
+}
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+    width: calc(100% - 100px); /* Adjust width to account for the margins */
+    margin: 0 50px;
+}
+navbar1 {
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: red;
+    color: black;
+}
+
+.content {
+    padding: auto;
+    text-align: center;
+    background-color: skyblue;
+    margin: 0 50px;
+}
+#ques {
+    font-weight: bold;
+}
+h1{
+    color: blueviolet;
+    font-weight: bolder;
+}
+.form-group label {
+        font-weight: bold;
+    }
+
+.textarea {
+    width: 100%; /* Adjust the width as needed */
+    min-height: 150px; /* Set a minimum height to ensure it's visible */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+}
+.big-select {
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Add padding for better appearance */
+    width: 100%; /* Optional: Set the width to 100% to make it full-width */
+}
+/* Adjust the width of label elements for radio inputs */
+label {
+    width: 110px; /* Adjust the width as needed */
+    display: inline-block; /* Ensure proper alignment */
+    white-space: nowrap; /* Prevent wrapping of text */
+}
+ h4 {
+            background-color: lightgrey; /* Change to your desired background color */
+            padding: 10px; /* Add padding for better appearance */
+        }

@@ -1,0 +1,247 @@
+/* Form Styles */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0 50px;
+            padding: 0;
+            position: relative;
+        }
+navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: red;
+    color: black;
+}
+
+#feedback-form {
+    max-width: 870px;
+    margin: 10px auto;
+    background-color: lightsteelblue;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-area {
+    text-align: center; /* Center the button */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of elements */
+}
+
+.form-group label {
+    flex-basis: 30%; /* Adjusted width */
+    margin-right: 10px;
+    text-align: right; /* Align labels to the right */
+    font-weight: bold; /* Make labels bold */
+    color: black; /* Make labels blue */
+}
+
+.input-area {
+    flex-basis: 60%; /* Adjusted width */
+}
+
+.input-area input[type="text"],
+.input-area input[type="number"],
+.input-area input[type="date"],
+.input-area select {
+    width: 100%; /* Adjusted width */
+    padding: 12px; /* Increased padding */
+    margin-bottom: 10px; /* Added margin between input fields */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.input-area select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path fill="%23000" d="M0 0l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 10px 5px;
+}
+
+.input-area input[type="number"]::-webkit-inner-spin-button,
+.input-area input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button-area {
+    text-align: center;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Table Styles */
+/* Table Styles */
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    padding: 8px;
+    border: 2px solid white; /* Set border color and width for table cells */
+    text-align: center;
+}
+
+.table-container th {
+    background-color: blue;
+}
+
+/* Question Styles */
+#ques {
+    color: blue; /* Blue color */
+}
+
+/* Radio Button Styles */
+.table-container label {
+    font-weight: bold;
+}
+
+.inputRadio {
+    margin-right: 5px;
+}
+
+/* Question Styles */
+#ques {
+    color: black; /* Blue color */
+}
+
+/* Radio Button Styles */
+.table-container label {
+    font-weight: bold;
+}
+
+.inputRadio {
+    margin-right: 5px;
+}
+/* Radio Button Styles */
+.inputRadio {
+    margin-right: 10px;
+    transform: scale(1.5); /* Increase the size of the radio buttons */
+}
+
+.inputRadio input[type="radio"] {
+    display: none; /* Hide the default radio buttons */
+}
+
+.inputRadio label {
+    display: inline-block;
+    cursor: pointer;
+    color: white; /* Set content color to white */
+}
+.section-title {
+    font-weight: bold;
+
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0 50px;
+    position: relative; /* Add relative positioning */
+}
+
+.date-box {
+    position: absolute; /* Position the date box */
+    top: 0; /* Align it to the top of the navbar */
+    right: 60px; /* Adjust as needed */
+    z-index: 1; /* Ensure it's above the navbar content */
+}
+
+.date-box p {
+    margin: 20; /* Remove default margin */
+    font-size: 15px; /* Adjust font size */
+    color: white; /* Set text color */
+}
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 0 -80px;
+        }
+
+        .logo img {
+            width: 87%;
+            margin: 0 50px;
+        }
+
+        .content {
+            padding: auto;
+            text-align: center;
+            background-color: skyblue;
+            margin: 0 50px;
+        }
+       
+
+/* Feedback Form Title Styles */
+h1 {
+    text-align: center; /* Align title to the center */
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 30px; /* Add space below the title */
+}
+/* Form Group Table Borders */
+.form-group table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid white; /* Set border color and width for the table */
+}
+
+.form-group th,
+.form-group td {
+    padding: 8px;
+    border: 2px solid white; /* Set border color and width for table cells */
+    text-align: center;
+}
+
+.form-group th {
+    background-color: black;
+    color: white; /* Set text color for table headers */
+}
+
